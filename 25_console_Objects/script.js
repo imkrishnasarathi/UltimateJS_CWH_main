@@ -1,4 +1,4 @@
-console.log(console);
+console.log('log');
 console.info("info");
 console.warn("warning");
 console.error('err');
