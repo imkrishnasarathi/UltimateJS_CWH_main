@@ -1,15 +1,19 @@
 let age = prompt("Enter your age");
 age = Number.parseInt(age);
+let runAgain = true;
 
-const canDrive = (age) => {
-  return age>=18?true:false
+while (runAgain){
+  const canDrive = (age) => {
+    return age>=18?true:false;
+  }
+  
+  if (canDrive(age)){
+    alert("Yes you can drive")
+  }
+  else{
+    alert("You cannot drive")
+  }
 }
 
-if (canDrive(age)){
-  alert("Yes you can drive")
-}
-else{
-  alert("You cannot drive")
-}
 
 
