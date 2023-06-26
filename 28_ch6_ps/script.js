@@ -1,20 +1,10 @@
-let runAgain = true;
+let number = prompt("Enter your number");
+number = Number.parseInt(number);
 
-const canDrive = (age) => {
-  return age>=18?true:false;
+if (number<0){
+  location.href = "https://google.com"
 }
 
-while (runAgain){
-  let age = prompt("Enter your age");
-  age = Number.parseInt(age);
-  if (canDrive(age)){
-    alert("Yes you can drive")
-  }
-  else{
-    alert("You cannot drive")
-  }
-  runAgain = confirm("Do you want to play again?")
-}
 
 
 
