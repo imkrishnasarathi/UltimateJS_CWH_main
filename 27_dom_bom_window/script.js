@@ -1,1 +1,1 @@
-console.log(window)
+window.console.log(window)
