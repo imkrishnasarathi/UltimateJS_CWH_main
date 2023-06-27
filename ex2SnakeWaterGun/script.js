@@ -12,6 +12,7 @@ function Game(){
       alert("It's a draw!");
       uScore++;
       cScore++;
+      count++;
     }
     if (userChoice.toLowerCase() === 'snake'{
       if (computerChoice === 'water'){
@@ -22,6 +23,7 @@ function Game(){
         alert("You Lost! Gun shoots Snake!");
         cScore++;
       }
+      count++;
     }
     else if (userChoice.toLowerCase() === 'water'){
       if (computerChoice === 'snake'){
@@ -32,6 +34,20 @@ function Game(){
         alert("You Won! Water drowns Gun!")
         uScore++;
       }
+      count++;
+    }
+    else if (userChoice.toLowerCase() === "gun"){
+      if (computerChoice === "water"){
+        alert("You Lost! Water drowns Gun!")
+        cScore++;
+      }
+      else if (computerChoice === "snake"){
+        alert("You Won! Gun shoots Snake!")
+      }
+      count++;
+    }
+    else{
+      
     }
   }
   
