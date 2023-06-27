@@ -26,9 +26,11 @@ function Game(){
     else if (userChoice.toLowerCase() === 'water'){
       if (computerChoice === 'snake'){
         alert("You Lost! Snake drinks water!");
+        cScore++;
       }
       else if (computerChoice === 'gun'){
         alert("You Won! Water drowns Gun!")
+        uScore++;
       }
     }
   }
