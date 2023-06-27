@@ -19,13 +19,16 @@ function Game(){
         uScore++;
       }
       else if (computerChoice === 'gun'){
-        alert("You Lost! Gun shoots Snake!")
+        alert("You Lost! Gun shoots Snake!");
         cScore++;
       }
     }
     else if (userChoice.toLowerCase() === 'water'){
       if (computerChoice === 'snake'){
         alert("You Lost! Snake drinks water!");
+      }
+      else if (computerChoice === 'gun'){
+        alert("You Won! Water drowns Gun!")
       }
     }
   }
