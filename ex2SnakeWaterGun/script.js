@@ -14,7 +14,7 @@ function Game(){
       cScore++;
       count++;
     }
-    if (userChoice.toLowerCase() === 'snake'{
+    if (userChoice.toLowerCase() === 'snake'){
       if (computerChoice === 'water'){
         alert("You Won! Snake Drinks Water!");
         uScore++;
