@@ -60,12 +60,15 @@ if (readyOrNot){
   Game();
   if (cScore > uScore){
     alert("The Winner is COMPUTER!");
+    document.write("The Winner is COMPUTER!");
   }
   else if (uScore > cScore){
     alert("Hooray! You are the winner!");
+    document.write("Hooray! You are the winner!");
   }
   else if (uScore === cScore){
-    alert("It's a draw")
+    alert("It's a draw");
+    document.write("It's a draw");
   }
 }
 else{
