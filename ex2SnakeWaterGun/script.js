@@ -63,6 +63,9 @@ if (readyOrNot){
   else if (uScore > cScore){
     alert("Hooray! You are the winner!");
   }
+  else if (uScore === cScore){
+    alert("It's a draw")
+  }
 }
 else{
   alert("Okay. Maybe we'll play later ?");
