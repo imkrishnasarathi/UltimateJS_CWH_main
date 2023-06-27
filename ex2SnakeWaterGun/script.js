@@ -31,23 +31,24 @@ function Game(){
         cScore++;
       }
       else if (computerChoice === 'gun'){
-        alert("You Won! Water drowns Gun!")
+        alert("You Won! Water drowns Gun!");
         uScore++;
       }
       count++;
     }
     else if (userChoice.toLowerCase() === "gun"){
       if (computerChoice === "water"){
-        alert("You Lost! Water drowns Gun!")
+        alert("You Lost! Water drowns Gun!");
         cScore++;
       }
       else if (computerChoice === "snake"){
-        alert("You Won! Gun shoots Snake!")
+        alert("You Won! Gun shoots Snake!");
       }
       count++;
     }
     else{
-      
+      alert("Not a valid word. Maybe try again?");
+      continue;
     }
   }
   
