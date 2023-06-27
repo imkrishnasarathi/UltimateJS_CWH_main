@@ -56,7 +56,10 @@ function Game(){
 
 if (readyOrNot){
   alert("Let's Go!");
-  
+  Game();
+  if (cScore > uScore){
+    alert("The Winner is COMPUTER!");
+  }
 }
 else{
   alert("Okay. Maybe we'll play later ?");
