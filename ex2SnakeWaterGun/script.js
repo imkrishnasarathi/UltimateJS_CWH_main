@@ -60,6 +60,9 @@ if (readyOrNot){
   if (cScore > uScore){
     alert("The Winner is COMPUTER!");
   }
+  else if (uScore > cScore){
+    alert("Hooray! You are the winner!");
+  }
 }
 else{
   alert("Okay. Maybe we'll play later ?");
