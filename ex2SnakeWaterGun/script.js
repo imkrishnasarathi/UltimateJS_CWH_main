@@ -43,6 +43,7 @@ function Game(){
       }
       else if (computerChoice === "snake"){
         alert("You Won! Gun shoots Snake!");
+        uScore++;
       }
       count++;
     }
