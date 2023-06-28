@@ -57,17 +57,18 @@ function Game() {
 if (readyOrNot) {
   alert("Let's Go!");
   Game();
+  alert("Your score is : " + uScore.toString() + " and the Computer's score is: " + cScore.toString())
   if (cScore > uScore) {
     alert("The Winner is COMPUTER!");
-    document.write("The Winner is COMPUTER!");
+    document.write("The Winner is COMPUTER! Your score is : " + uScore.toString() + " and the Computer's score is: " + cScore.toString());
   }
   else if (uScore > cScore) {
     alert("Hooray! You are the winner!");
-    document.write("Hooray! You are the winner!");
+    document.write("Hooray! You are the winner! Your score is : " + uScore.toString() + " and the Computer's score is: " + cScore.toString());
   }
   else if (uScore === cScore) {
     alert("It's a draw");
-    document.write("It's a draw");
+    document.write("It's a draw! Your score is : " + uScore.toString() + " and the Computer's score is: " + cScore.toString());
   }
 }
 else {
