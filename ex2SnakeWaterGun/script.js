@@ -2,9 +2,9 @@ const choices = ["snake", "water", "gun"];
 const readyOrNot = confirm("Hello there! Are you ready for this game ?");
 let cScore = 0;
 let uScore = 0;
+let count = 0;
 
 function Game() {
-  let count = 0;
   while (count < 6) {
     let computerChoice = choices[Math.floor(Math.random() * choices.length)];
     let userChoice = prompt("Enter your choice (snake, water or gun) :");
@@ -12,7 +12,6 @@ function Game() {
       alert("It's a draw!");
       uScore++;
       cScore++;
-      count++;
     }
     if (userChoice.toLowerCase() === 'snake') {
       if (computerChoice === 'water') {
@@ -23,7 +22,6 @@ function Game() {
         alert("You Lost! Gun shoots Snake!");
         cScore++;
       }
-      count++;
     }
     else if (userChoice.toLowerCase() === 'water') {
       if (computerChoice === 'snake') {
@@ -34,7 +32,6 @@ function Game() {
         alert("You Won! Water drowns Gun!");
         uScore++;
       }
-      count++;
     }
     else if (userChoice.toLowerCase() === "gun") {
       if (computerChoice === "water") {
@@ -45,12 +42,12 @@ function Game() {
         alert("You Won! Gun shoots Snake!");
         uScore++;
       }
-      count++;
     }
     else {
       alert("Not a valid word. Maybe try again?");
       continue;
     }
+    count++;
   }
 }
 
