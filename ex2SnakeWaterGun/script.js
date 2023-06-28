@@ -1,7 +1,7 @@
 const choices = ["snake", "water", "gun"];
 const readyOrNot = confirm("Hello there! Are you ready for this game ?");
 let cScore = 0;
-let uScore;
+let uScore = 0;
 
 function Game() {
   let count = 0;
