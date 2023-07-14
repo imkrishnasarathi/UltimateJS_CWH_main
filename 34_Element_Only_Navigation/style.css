@@ -9,6 +9,7 @@ html {
 ul {
   display: flex;
   background: grey;
+  margin: 0;
 }
 
 ul li {
