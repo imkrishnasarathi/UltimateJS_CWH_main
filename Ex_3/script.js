@@ -1,0 +1,1 @@
+const jokeDiv = document.querySelector('#joke');
