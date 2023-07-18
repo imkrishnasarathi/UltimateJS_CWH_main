@@ -61,5 +61,6 @@ if (alertTrigger) {
   alertTrigger.addEventListener('click', (e) => {
     appendAlert(`${jokes[(Math.floor(Math.random() * jokes.length))]}`, 'dark')
     e.target.disabled = true;
+    document.querySelector('.container').innerHTML += '<div class="alert alert-info" role="alert">Reload the page again to get a new joke</div>'
   })
 }
