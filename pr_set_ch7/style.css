@@ -10,7 +10,7 @@ html, body{
 
 nav{
   display: flex;
-  background-color: cyan;
+  background-color: #ededed;
 }
 
 nav li{
