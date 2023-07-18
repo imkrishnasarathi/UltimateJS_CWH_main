@@ -44,4 +44,22 @@ const jokes = [
   "Why did the bicycle fall over? It was two-tired!",
 ];
 
-jokeDiv.innerHTML = jokes[(Math.floor(Math.random() * jokes.length))];
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  jokeDiv.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(jokeDiv)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', (e) => {
+    appendAlert(`${jokes[(Math.floor(Math.random() * jokes.length))]}`, 'dark')
+    e.target.disabled = true;
+  })
+}
