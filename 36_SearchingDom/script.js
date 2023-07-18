@@ -12,5 +12,6 @@ ctitles[2].style.color = "green"
 
 document.querySelector(".this").style.color = "cyan";
 
-console.log(document.body.getElementsByTagName('a'))
-console.log(document.getElementsByName("search"))
+console.log(document.body.getElementsByTagName('a'));
+console.log(document.getElementsByName("search"));
+console.log(document.querySelector('.card').getElementsByTagName('a'));
