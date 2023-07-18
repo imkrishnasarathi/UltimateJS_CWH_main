@@ -11,3 +11,5 @@ ctitles[1].style.color = "red"
 ctitles[2].style.color = "green"
 
 document.querySelector(".this").style.color = "cyan";
+
+console.log(document.body.getElementsByTagName('a'))
