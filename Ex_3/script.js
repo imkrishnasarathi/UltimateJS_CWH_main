@@ -43,3 +43,5 @@ const jokes = [
   "What do you call a fish that wears a crown? King mackerel!",
   "Why did the bicycle fall over? It was two-tired!",
 ];
+
+jokeDiv.innerHTML = jokes[(Math.floor(Math.random() * jokes.length))];
