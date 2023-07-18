@@ -4,3 +4,5 @@
 
 let ctitle = document.getElementById("firstcardtitle")
 ctitle.style.color = "blue"
+
+let ctitles = document.querySelectorAll('.card-title')
