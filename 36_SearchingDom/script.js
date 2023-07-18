@@ -3,3 +3,4 @@
    ctitle.style.color = "red" */
 
 let ctitle = document.getElementById("firstcardtitle")
+ctitle.style.color = "blue"
