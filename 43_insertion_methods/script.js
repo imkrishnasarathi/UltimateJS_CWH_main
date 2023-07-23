@@ -6,4 +6,5 @@ let div = document.createElement('div');
 div.innerHTML = "<h1>hello world</h1>";
 // a.append(div);
 // a.prepend(div);
-a.before(div);
+// a.before(div);
+a.after(div);
