@@ -11,3 +11,5 @@
 // => '<span id="first"><b>Hi</b>Hey I am Span</span>'
 // first.outerHTML = "<div>Hey</div>"
 // => '<div>Hey</div>'
+
+console.log(document.body.textContent)
