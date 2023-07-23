@@ -7,4 +7,5 @@ div.innerHTML = "<h1>hello world</h1>";
 // a.append(div);
 // a.prepend(div);
 // a.before(div);
-a.after(div);
+// a.after(div);
+a.replaceWith(div);
