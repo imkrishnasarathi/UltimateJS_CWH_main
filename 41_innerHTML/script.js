@@ -12,4 +12,5 @@
 // first.outerHTML = "<div>Hey</div>"
 // => '<div>Hey</div>'
 
-console.log(document.body.textContent)
+// document.body.firstChild.data
+// console.log(document.body.textContent)
