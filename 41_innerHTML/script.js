@@ -14,3 +14,5 @@
 
 // document.body.firstChild.data
 // console.log(document.body.textContent)
+
+// first.hidden = false
