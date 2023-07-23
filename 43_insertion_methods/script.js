@@ -8,4 +8,4 @@ div.innerHTML = "<h1>hello world</h1>";
 // a.prepend(div);
 // a.before(div);
 // a.after(div);
-a.replaceWith(div);
+// a.replaceWith(div);
