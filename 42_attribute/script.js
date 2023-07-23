@@ -7,3 +7,4 @@ let a = first.getAttribute("class")
 // first.setAttribute("class", "true sachin")
 first.removeAttribute("class")
 // console.log(first.attributes)
+console.log(first.dataset);
