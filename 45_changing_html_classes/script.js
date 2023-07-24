@@ -1,1 +1,1 @@
-first.className = "text-black red"
+first.className = "text-black red";
