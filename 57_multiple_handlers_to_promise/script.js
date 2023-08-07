@@ -8,3 +8,7 @@ let p1 = new Promise((resolve, reject) => {
 p1.then(()=>{
     console.log('Congratulations this promise is now resolved')
 })
+
+p1.then(() => {
+    alert("hurray");
+})
